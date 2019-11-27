@@ -190,11 +190,6 @@ namespace OreganoSoft.WpfToolkit.AutoComplete
                 {
                     txtBox.Focus();
                 }
-                // focus on texbox showing popup.
-                //if (txtBox.ItemsSelector.SelectedItem == null && this.SearchText == null)
-                //{
-                //    // this.IsDropDownOpen = true;
-                //}
                 if (e.LeftButton == MouseButtonState.Pressed &&
                     txtBox.ItemsSelector.IsMouseOver &&
                     txtBox.ItemsSelector.SelectedItem != null)
