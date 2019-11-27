@@ -60,10 +60,5 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="EditableComboBox.Raghava.1.0.0.1.nupkg" />
-    <None Include="Nuspec\OreganoSoft.WpfToolkit.1.0.0.1.nupkg" />
-    <None Include="OreganoSoft.WpfToolkit.nuspec" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
